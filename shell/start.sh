@@ -1,6 +1,7 @@
-\#!/bin/bash
+#!/bin/bash
 
-
+NAME = spring-boot-demo
+VERSION = 0.1
 pid=`ps -ef |grep $NAME |grep -v "grep" |awk '{print $2}'`
 
 if [ $pid ]; then
