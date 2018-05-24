@@ -9,14 +9,13 @@ if [ $pid ]; then
 
 ​    kill -9 $pid
 
-​    if [ $? -eq 0 ]; then
+    if [ $? -eq 0 ]; then
 
-​       echo "$NAME 服务已经关闭 "
+        echo "$NAME 服务已经关闭 "
 
-​    else
+        else
 
-​       echo "f$NAME 服务关闭失败 "
+        echo "f$NAME 服务关闭失败 "
 
-​     fi
-
+    fi
 fi
