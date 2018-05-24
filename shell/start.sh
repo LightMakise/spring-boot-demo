@@ -9,7 +9,7 @@ if [ $pid ]; then
 
 else
 
-   echo "Start success to start $PROJECTNAME ...."
+   echo "Start success to start $NAME-$VERSION.jar ..."
 
    java -jar $NAME-$VERSION.jar &
 
