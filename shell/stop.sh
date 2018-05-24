@@ -4,7 +4,7 @@ pid=`ps -ef |grep $NAME |grep -v "grep" |awk '{print $2}'`
 
 if [ $pid ]; then
 
-​    echo "$NAME运行在pid=$pid"
+​    echo "$NAME运行在pid=${pid}"
 
     kill -9 ${pid}
 
