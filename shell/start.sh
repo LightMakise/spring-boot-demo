@@ -1,17 +1,15 @@
 #!/bin/bash
 
-NAME = spring-boot-demo
-VERSION = 0.1
 pid=`ps -ef |grep $NAME |grep -v "grep" |awk '{print $2}'`
 
 if [ $pid ]; then
 
-​    echo "$NAME  is  running  and pid=$pid"
+​    echo "$NAME 服务运行在 pid=$pid"
 
 else
 
-   echo "Start success to start $NAME-$VERSION.jar ..."
+   echo "正在开启 $NAME-$VERSION.jar 中"
 
-   java -jar $NAME-$VERSION.jar &
+   java -jar /opt/$NAME-$VERSION.jar &
 
 fi
