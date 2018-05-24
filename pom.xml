@@ -6,7 +6,7 @@
 
     <groupId>com.zhang</groupId>
     <artifactId>${NAME}</artifactId>
-    <version>1.0</version>
+    <version>${VERSION}</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
