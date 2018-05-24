@@ -9,7 +9,7 @@ if [ $pid ]; then
 
 ​    kill -9 $pid
 
-​    if [[ $? -eq 0 ]];then
+​    if [[ $? -eq 0 ]]; then
 
 ​       echo "$NAME 服务已经关闭 "
 
