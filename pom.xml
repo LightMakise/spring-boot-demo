@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.zhang</groupId>
-    <artifactId>spring-boot-demo</artifactId>
-    <version>0.1</version>
+    <artifactId>${NAME}</artifactId>
+    <version>${VERSION}</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
