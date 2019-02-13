@@ -37,7 +37,7 @@ public class UserController extends Base {
     }
 
     @PostMapping("/add")
-    String addUser(@RequestBody @Valid User json) {
+    String addUser(@RequestBody User json) {
         ResponseObject responseObject = new ResponseObject();
         responseObject.setData(json);
         responseObject.ok();
