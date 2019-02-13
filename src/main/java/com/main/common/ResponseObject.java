@@ -5,7 +5,7 @@ import net.sf.json.JSONObject;
 import java.util.HashMap;
 
 
-public class ResponseObject {
+public class    ResponseObject {
     public HashMap<String,Object> response = new HashMap<String, Object>();
 
     public HashMap<String,Object> ResponseObject(){

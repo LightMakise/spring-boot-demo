@@ -1,8 +1,12 @@
 package com.main.model;
 
+import org.hibernate.validator.constraints.NotBlank;
+
 public class User {
+
     private Integer id;
 
+    @NotBlank(message = "用户名不能为空")
     private String username;
 
     private String password;
